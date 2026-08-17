@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .mainDiv p{
+            background-color: yellow;
+        }
+        p+ p{
+            background-color: yellow;
+        }
+
+        h1~p{
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainDiv">
+        <div>
+
+            <h1>h1 from child div</h1>
+            <p>1 from the child div</p>
+            <p>para 2 from child</p>
+        </div>
+        <section>
+            <h2>
+                h2 from section
+            </h2>
+            <p>
+                para from section
+            </p>
+        </section>
+        <p>para from mainDiv</p>
+    </div>
+
+    <p>para from outside</p>
+</body>
+</html>
